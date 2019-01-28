@@ -10,8 +10,8 @@
         <span class="icon-bar"></span>
       </button>
     </div>
-    
-    <img class="navbar-brand" src="/icon.png">
+
+    <img class="navbar-brand" src="/freshworkslogo.png">
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
@@ -24,14 +24,14 @@
         <li>
           <form class="navbar-form navbar-right" role="search">
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Search Flutter">
+              <input type="text" class="form-control" placeholder="Just for style">
             </div>
           </form>
         </li>
-        
+
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="/avatar.png" class="rounded-img" height="25px" width="25px"> <span class="caret"></span></a>
-          
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="/freshlogo.jpg" class="rounded-img" height="25px" width="25px"> <span class="caret"></span></a>
+
           <ul class="dropdown-menu">
             <li><a href="/user/<%= current_user.username %>">Profile</a></li>
             <li role="separator" class="divider"></li>
@@ -39,7 +39,7 @@
             <li role="separator" class="divider"></li>
             <li><%= link_to('Log Out', destroy_user_session_path, :method => :delete) %></li>
           </ul>
-          
+
          <li type="button" class="btn btn-primary navbar-btn">Add Post</li>
         </li>
       </ul>

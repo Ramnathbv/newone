@@ -4,13 +4,7 @@
             background: linear-gradient( /* somewhat transparent film on top of the BG to make it look darker. */
                 rgba(0,0,0, 0.7),
                 rgba(0,0,0, 0.7)
-                ), url("/bg.jpg") no-repeat center center fixed
-            
-            ; /* only display once, center horizontal and vertical, dont let scroll change position. */
-            -webkit-background-size: cover;
-            -moz-background-size: cover; /* cover the whole html element. */
-            -o-background-size: cover;
-            background-size: cover;
+                ), url("/front.jpg")
         }
         h1 {
             color: white;
@@ -46,30 +40,16 @@
             margin: 5px;
         }
     </style>
-    
+
     <div class="container-index row">
         <div class="col-sm-6">
-            <h1>Welcome to Flutter.</h1>
-            <p class="text">
-                Connect with your buddies. Chat with new friends.<br>
-                Share your adventures. Have fun! <br>
-                Just like a blog, but with less characters!
-            </p>
+            <h1>Welcome to Twitter</h1>
         </div>
-        <div class="col-sm-6">
-                   <div class="log-in panel">
-                       Log In
-                    </div> 
-                    
-                   <div class="sign-up panel">
-                        Sign Up
-                   </div> 
-        </div>
-        
+
         <div class="col-sm-12">
-            <p class="footer-links">About  Help  Blog  Status  Jobs  Terms  Privacy  Cookies  Ads  info  Brand  Advertise  Businesses  Media  Developers  Directory © 2016 Flutter</p>
+            <p class="footer-links">New Try on Ruby on Rails © 2019 Twitter clone</p>
         </div>
-        
+
     </div>
 
 <% else # if the user IS signed in, render the following %>
